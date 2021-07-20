@@ -29,8 +29,12 @@ class Stack:
 
 st = Stack(5)
 st.push(123)
+st.push(245)
+st.push(11)
+st.push(23)
+st.push(-5)
+st.printStack()
+st.push(-5)
 
-
-
-enSoneleman = st.peek()
-print("En son Eleman..." + str(enSoneleman))
+lastInserted = st.peek()
+print("Last Data is... ")
